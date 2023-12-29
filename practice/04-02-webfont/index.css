@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+div {
+    font-family: 'Stylish', serif;
+    font-size: 30px;
+}
