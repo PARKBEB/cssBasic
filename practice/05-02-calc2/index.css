@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.sidebar {
+    width: 170px;
+    background: orange;
+}
+
+.sidebar ul {
+    width: 100%;
+}
+
+.sidebar ul li {
+    list-style: none;
+    /* padding: 5px 0px; 이거 왜 적용안됐는지 몰겠다 */
+}
+
+.contents {
+    width:calc(100% - 170px);
+}
