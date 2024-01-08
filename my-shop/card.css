@@ -143,6 +143,12 @@ html, body {
     transition: all 0s linear;
     height: 30px;
     margin-bottom: 10px;
+}
+
+.navTop p {
+    transition: all 0s linear;
+    height: 30px;
+    margin-bottom: 10px;
     padding: 0;
 }
 
